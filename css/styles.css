@@ -17,11 +17,14 @@ body {
   box-sizing: border-box;
 }
 
+/* MAIN-CONTENT  */
+.main-content {
+  flex-grow: 1;
+}
 
 /* EXTRA-STYLES  */
 *:focus {
-  outline: dotted #7296EC 4px;
-  outline-offset: 3px;
+  outline: dotted #7296EC 2px;
 }
 
 html {
@@ -43,4 +46,139 @@ img {
   margin-left: auto;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+
+/* SITE-HEADER  */
+/* LOGO-LINK  */
+header {
+  background-color: #f6f6f6;
+}
+
+
+.site-header {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo-link {
+  display: flex;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  margin: 0;
+  margin-right: 35px;
+  border-radius: 7px;
+  background-color: #fff;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-link:active {
+  opacity: 0.6;
+}
+
+/* MONEY  */
+.money {
+  display: flex;
+}
+
+.dollar {
+  color: #555555;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.dollar-two {
+  margin: 0;
+  margin-left: 25px;
+  margin-right: auto;
+}
+
+.dollar-icon {
+  color: #2959CE;
+  font-weight: bold;
+}
+
+/* SEARCHBAR  */
+.searchbar {
+  margin: 0;
+  padding: 0;
+  margin-left: 247px;
+  margin-right: 25px;
+}
+
+.searchbar-input {
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 41px;
+  border: none;
+  border-radius: 60px;
+}
+
+/* LANGUAGE-SELECT  */
+.lang-select {
+  display: flex;
+  align-items: center;
+  background-color: #DCE6FF;
+  border-radius: 39px;
+  padding: 3px;
+  margin-right: 45px;
+}
+
+.uz {
+  width: 30px;
+  height: 30px;
+  font-style: 13px;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.ru {
+  text-decoration: none;
+  color: #A6A6A6;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-style: 13px;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* BUTTON-SIGNUP  */
+.button {
+  font-style: 16px;
+  line-height: normal;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #7296EC;
+  color: #fff;
+  border-radius: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 20px;
+  padding-left: 20px;
+transition: background-color 0.4s ease;
+}
+
+.button-signup:hover {
+  background-color: #fff;
+  color: #7296EC
+}
+
+.button-signup:active {
+  background-color: #7296EC;
+  color: #fff;
+  opacity: 0.6;
 }
