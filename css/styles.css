@@ -24,7 +24,7 @@ body {
 
 /* EXTRA-STYLES  */
 *:focus {
-  outline: dotted #2959CE 2px;
+  outline: dotted #011341 2px;
 }
 
 html {
@@ -349,7 +349,7 @@ img {
 
 .content-site {
   color: #5E5F61;
-  font-size: 12px;
+  font-size: 13px;
   line-height: normal;
   font-weight: 400;
 }
@@ -410,6 +410,7 @@ only screen and (                min-resolution: 2dppx) {
   padding-right: 30px;
   padding-left: 30px;
   margin-right: 71px;
+  transition: all 0.4s ease;
 }
 
 .button-turn-on-off:hover {
@@ -428,5 +429,94 @@ only screen and (                min-resolution: 2dppx) {
   line-height: normal;
   font-weight: 500;
   margin-top: 0;
-  margin-bottom: 20px;
+}
+
+.hero-two-container {
+  display: flex;
+  padding: 0;
+}
+
+.hero-two-cards-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-two-cards {
+  display: flex;
+  align-items: center;
+  width: 797px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 17px;
+  padding-right: 20px;
+  background-color: #F6F6F6;
+  border-radius: 15px;
+}
+
+.hero-two-cards:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.hero-two-cards:last-child {
+  margin-bottom: 7px;
+}
+
+.hero-two-card-heading {
+  margin: 0;
+}
+
+.hero-two-card-heading-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  transition: all 0.4s ease;
+}
+
+.hero-two-card-heading-link:hover {
+  color: #7296EC;
+}
+
+.hero-two-card-heading-link:active {
+  opacity: 0.6;
+}
+
+.hero-two-paragraph {
+  color: #4A4B4C;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 0;
+}
+
+.hero-two-img {
+  width: 210px;
+  height: 165px;
+  border-radius: 10px;
+  margin: 0;
+  margin-right: 15px;
+}
+
+.hero-two-site-content {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+/* BUTTON-LOOK-MORE */
+.button-look-more {
+  width: 796px;
+  text-align: center;
+  color: #000;
+  background-color: #EAEAEA;
+  transition: all 0.4s ease;
+}
+
+.button-look-more:hover {
+  opacity: 0.8;
+}
+
+.button-look-more:active {
+  opacity: 0.6;
 }
