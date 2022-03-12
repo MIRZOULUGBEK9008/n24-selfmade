@@ -50,16 +50,17 @@ img {
 
 
 /* SITE-HEADER  */
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .header-top {
   background-color: #f6f6f6;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.wrapper {
-  display: flex;
-  align-items: center;
-}
 
 .header-container {
   display: flex;
@@ -224,7 +225,7 @@ img {
 }
 
 .site-header-items:hover {
-  color: #2959CE;
+  color:  #7296EC;
 }
 
 .site-header-items:active {
@@ -303,13 +304,14 @@ img {
 }
 
 .hero-one-card-heading-link {
+  display: inline-block;
   text-decoration: none;
   color: #000;
   transition: all 0.4s ease;
 }
 
 .hero-one-card-heading-link:hover {
-  color: #2959CE;
+  color:  #7296EC;
 }
 
 .hero-one-card-heading-link:active {
@@ -439,6 +441,7 @@ only screen and (                min-resolution: 2dppx) {
 .hero-two-cards-left {
   display: flex;
   flex-direction: column;
+  margin-right: 10px;
 }
 
 .hero-two-cards {
@@ -466,6 +469,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .hero-two-card-heading-link {
+  display: inline-block;
   text-decoration: none;
   color: #000;
   font-weight: 500;
@@ -518,5 +522,67 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .button-look-more:active {
+  opacity: 0.6;
+}
+
+
+/* HERO-TWO-CARDS-LEFT  */
+.hero-two-cards-right {
+  padding: 20px 20px 25px 17px;
+  margin-bottom: 10px;
+  background-color: rgba(246, 246, 246, 1);
+  border-radius: 15px;
+  width: 393px;
+}
+
+.hero-two-right-heading {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.right-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* border: 1px solid red; */
+}
+
+.right-list-item:not(:last-child) {
+  border-bottom: 1px solid rgba(210, 210, 210, 1);
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.right-list-heading {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.last-heading-its {
+  padding-top: 20px;
+}
+
+.right-list-item-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  transition: all 0.4s ease;
+}
+
+.right-list-item-link:hover {
+  color: #7296EC;
+}
+
+.right-list-item-link:active {
   opacity: 0.6;
 }
