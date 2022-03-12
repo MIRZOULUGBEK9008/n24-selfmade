@@ -586,3 +586,23 @@ only screen and (                min-resolution: 2dppx) {
 .right-list-item-link:active {
   opacity: 0.6;
 }
+
+/* ASIDE  */
+.aside-img-two {
+  width: 393px;
+  height: 338px;
+  border-radius:  15px;
+}
+
+.aside-link-two {
+  display: flex;
+  transition: all 0.4s ease;
+}
+
+.aside-link-two:hover {
+  opacity: 0.8;
+}
+
+.aside-link-two:active {
+  opacity: 0.6;
+}
