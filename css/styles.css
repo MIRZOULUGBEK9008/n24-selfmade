@@ -204,6 +204,7 @@ img {
 /* SITE-HEADER -LINKS  */
 .site-header-links {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
