@@ -510,6 +510,7 @@ only screen and (                min-resolution: 2dppx) {
 
 /* BUTTON-LOOK-MORE */
 .button-look-more {
+  margin-bottom: 100px;
   width: 796px;
   text-align: center;
   color: #000;
@@ -605,4 +606,151 @@ only screen and (                min-resolution: 2dppx) {
 
 .aside-link-two:active {
   opacity: 0.6;
+}
+
+
+
+/* SITE-FOOTER  */
+.site-footer {
+  background-color: #7297EF;
+}
+
+.site-footer-wrapper {
+  padding: 0;
+  margin: 0;
+  padding-left: 101px;
+  padding-right: 101px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* SITE-LOGO  */
+/* .logo-link-two {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.site-logo-styles {
+  color: #fff;
+} */
+
+.logo-site-heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.logo-site-heading-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  line-height: normal;
+  transition: opacity 0.4s ease;
+}
+
+.logo-site-heading-link:hover {
+  opacity: 0.8;
+}
+
+.logo-site-heading-link:active {
+  opacity: 0.6;
+}
+
+/* SITE-FOOTER-TOP  */
+.site-footer-top {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(206, 206, 206, 1);
+}
+
+.site-footer-information {
+  padding: 0;
+  margin: 0;
+  width: 229px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.site-footer-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.first-list {
+  margin-left: 203px;
+  margin-right: 100px;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 500;
+}
+
+.footer-links:hover {
+  text-decoration: underline;
+}
+
+.footer-links:active {
+  opacity: 0.6;
+  transition: opacity 0.4s ease;
+}
+
+.footer-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* SITE-FOOTER-BOTTOM  */
+.site-footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footer-heading {
+margin: 0;
+padding: 0;
+color: #fff;
+font-size: 18px;
+font-weight: 500;
+line-height: 23px;
+}
+
+/* SOCIAL-MEDIA-LINKS  */
+.site-social-media-links {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+}
+
+.social-media-items:not(:last-child) {
+margin-right: 25px;
+}
+
+.social-media-links {
+display: flex;
+}
+
+.social-media-logo {
+opacity: 0.6;
+transition: all 0.4s ease;
+}
+
+.social-media-logo:hover {
+  opacity: 1;
+}
+
+.social-media-logo:active {
+  opacity: 0.8;
 }
