@@ -748,9 +748,9 @@ transition: all 0.4s ease;
 }
 
 .social-media-logo:hover {
-  opacity: 1;
+opacity: 1;
 }
 
 .social-media-logo:active {
-  opacity: 0.8;
+opacity: 0.8;
 }
