@@ -118,6 +118,7 @@ img {
 .dollar-icon {
   color: #2959CE;
   font-weight: bold;
+  margin-right: 4px;
 }
 
 /* SEARCHBAR  */
@@ -150,7 +151,7 @@ img {
   margin-right: 45px;
 }
 
-.uz {
+.lang {
   width: 30px;
   height: 30px;
   font-size: 13px;
@@ -163,6 +164,11 @@ img {
 }
 
 .ru {
+  background-color: #DCE6FF;
+  color: #A6A6A6;
+}
+
+/* .ru {
   text-decoration: none;
   color: #A6A6A6;
   width: 30px;
@@ -171,7 +177,7 @@ img {
   font-size: 13px;
   line-height: 30px;
   text-align: center;
-}
+} */
 
 /* BUTTON-SIGNUP  */
 .button {
@@ -719,39 +725,39 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .footer-heading {
-margin: 0;
-padding: 0;
-color: #fff;
-font-size: 18px;
-font-weight: 500;
-line-height: 23px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
 }
 
 /* SOCIAL-MEDIA-LINKS  */
 .site-social-media-links {
-margin: 0;
-padding: 0;
-list-style: none;
-display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
 }
 
 .social-media-items:not(:last-child) {
-margin-right: 25px;
+  margin-right: 25px;
 }
 
 .social-media-links {
-display: flex;
+  display: flex;
 }
 
 .social-media-logo {
-opacity: 0.6;
-transition: all 0.4s ease;
+  opacity: 0.6;
+  transition: all 0.4s ease;
 }
 
 .social-media-logo:hover {
-opacity: 1;
+  opacity: 1;
 }
 
 .social-media-logo:active {
-opacity: 0.8;
+  opacity: 0.8;
 }
