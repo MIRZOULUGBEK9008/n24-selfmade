@@ -420,6 +420,7 @@ only screen and (                min-resolution: 2dppx) {
   padding-left: 30px;
   margin-right: 71px;
   transition: all 0.4s ease;
+  font-size: 20px;
 }
 
 .button-turn-on-off:hover {
