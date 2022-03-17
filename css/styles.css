@@ -266,6 +266,7 @@ img {
 .aside-img {
   width: 1200px;
   height: 128px;
+  border-radius: 8px;
   object-fit: cover;
 }
 
@@ -633,18 +634,28 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 /* SITE-LOGO  */
-/* .logo-link-two {
-  display: flex;
+.logo-link-two {
+  display: inline-block;
   padding: 0;
   margin: 0;
   margin-bottom: 15px;
 }
 
 .site-logo-styles {
+  display: flex;
   color: #fff;
-} */
+  transition: opacity 0.5s ease;
+}
 
-.logo-site-heading {
+.site-logo-styles:hover {
+  opacity: 0.8;
+}
+
+.site-logo-styles:active {
+  opacity: 0.6;
+}
+
+/* .logo-site-heading {
   margin: 0;
   padding: 0;
   margin-bottom: 15px;
@@ -664,7 +675,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .logo-site-heading-link:active {
   opacity: 0.6;
-}
+}  */
 
 /* SITE-FOOTER-TOP  */
 .site-footer-top {
