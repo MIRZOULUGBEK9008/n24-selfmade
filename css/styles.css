@@ -810,7 +810,7 @@ only screen and (                min-resolution: 2dppx) {
   margin-bottom: 10px;
 }
 
-.name-number-input {
+.number-input {
   width: 343px;
   padding: 0;
   margin: 0;
