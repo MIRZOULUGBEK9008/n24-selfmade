@@ -790,10 +790,17 @@ only screen and (                min-resolution: 2dppx) {
 
 
 /* CONTACT-PAGE  */
+.contact {
+  display: flex;
+  align-items: flex-start;
+}
+
 .contact-action {
   display: flex;
   flex-direction: column;
   width: 696px;
+  margin-right: 10px;
+  margin-bottom: 100px;
 }
 
 .telephone-number {
@@ -811,6 +818,7 @@ only screen and (                min-resolution: 2dppx) {
   padding-left: 20px;
   border-radius: 10px;
   color: rgba(0, 0, 0, 1);
+  font-family: "Rubik", "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: normal;
   font-weight: 400;
@@ -819,6 +827,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .name-number-input:focus {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  outline: none;
 }
 
 .email-input {
@@ -828,12 +837,67 @@ only screen and (                min-resolution: 2dppx) {
 
 .text-input {
   width: 696px;
-  padding-bottom: 125px;
+  padding-bottom: 143px;
+  padding-left: 20px;
   margin-bottom: 20px;
 }
 
 .submit-flex {
   display: flex;
   justify-content: right;
-  margin-bottom: 100px;
+}
+
+
+/* CONTACT-LIST  */
+.contact-list {
+  width: 494px;
+  height: 310px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding: 40px 25px;
+  background-color: #F6F6F6;
+  border-radius: 10px;
+}
+
+.contact-list-item {
+  padding: 0;
+  margin: 0;
+}
+
+.info-border {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #D2D2D2 ;
+  border-bottom: 1px solid #D2D2D2 ;
+}
+
+.contact-list-item-heading {
+  margin: 0;
+  margin-bottom: 7px;
+  font-family: "Rubik", "Roboto", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 500;
+  color: #000;
+}
+
+.info-margin {
+  padding-bottom: 20px;
+}
+
+.contact-three-heading {
+  margin-top: 20px;
+}
+
+.contact-list-item-link {
+  text-decoration: none;
+  font-family: "Rubik", "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  color: #000;
+}
+
+.contact-list-item-link:focus {
+  outline: none;
 }

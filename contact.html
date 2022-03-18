@@ -82,22 +82,45 @@
 
       <div class="container">
 
-        <form class="contact-action" action="https://echo.htmlacademy.ru/" method="GET">
-          <div class="telephone-number">
-            <input class="name-number-input" type="name" name="username" placeholder="Имя" required>
-            <input class="name-number-input" type="tel" name="user-number" placeholder="Номер телефона" required>
-          </div>
+        <div class="contact">
+          <!-- INPUT  -->
+          <form class="contact-action" action="https://echo.htmlacademy.ru/" method="GET">
+            <div class="telephone-number">
+              <input class="name-number-input" type="name" name="username" placeholder="Имя" required>
+              <input class="name-number-input" type="tel" name="user-number" placeholder="Номер телефона" required>
+            </div>
+            <div>
+              <input class="name-number-input  email-input" type="email" name="user-email" placeholder="Электронная почта" required>
+            </div>
+            <div>
+              <input class="name-number-input text-input" type="text" name="about-user" placeholder="Текст" required>
+            </div>
+            <div class="submit-flex">
+              <button class="button button-signup" type="submit">Отправить</button>
+            </div>
+          </form>
 
-          <div>
-            <input class="name-number-input  email-input" type="email" name="user-email" placeholder="Электронная почта" required>
-          </div>
-          <div>
-            <input class="name-number-input text-input" type="text" name="about-user" placeholder="Текст" required>
-          </div>
-          <div class="submit-flex">
-            <button class="button button-signup" type="submit">Отправить</button>
-          </div>
-        </form>
+
+          <!-- CONTACT  -->
+          <ul class="contact-list">
+            <li class="contact-list-item info-margin">
+              <h3 class="contact-list-item-heading">Электронная почта</h3>
+              <a class="contact-list-item-link" href="contact.html">info@namanganliklar24.uz</a>
+            </li>
+
+            <li class="contact-list-item info-border">
+              <h3 class="contact-list-item-heading">Номер телефона</h3>
+              <a class="contact-list-item-link" href="tel:+998 88 522-54-76">+998 88 522-54-76</a>
+            </li>
+
+            <li class="contact-list-item">
+              <h3 class="contact-list-item-heading contact-three-heading">Адрес</h3>
+              <a class="contact-list-item-link" href="https://namanganliklar24.uz/" target="_blank">Ташкент, площадь Мустакиллик, 6</a>
+            </li>
+          </ul>
+
+
+        </div>
 
       </div>
     </div>
