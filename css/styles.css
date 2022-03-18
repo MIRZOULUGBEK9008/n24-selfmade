@@ -499,16 +499,17 @@ only screen and (                min-resolution: 2dppx) {
   color: #4A4B4C;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 22px;
   margin-top: 0;
 }
 
 .hero-two-img {
   width: 210px;
-  height: 165px;
+  height: auto;
   border-radius: 10px;
   margin: 0;
   margin-right: 15px;
+  object-fit: cover;
 }
 
 .hero-two-site-content {
@@ -601,7 +602,15 @@ only screen and (                min-resolution: 2dppx) {
 .aside-img-two {
   width: 393px;
   height: 338px;
-  border-radius:  15px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.full-aside-img-two {
+  width: 393px;
+  height: 553px;
+  border-radius: 15px;
+  object-fit: cover;
 }
 
 .aside-link-two {
