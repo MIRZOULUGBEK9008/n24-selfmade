@@ -901,3 +901,7 @@ only screen and (                min-resolution: 2dppx) {
 .contact-list-item-link:active {
   outline: none;
 }
+
+.contact-list-item-link:focus {
+  outline: none;
+}
