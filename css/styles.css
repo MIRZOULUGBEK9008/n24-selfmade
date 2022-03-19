@@ -897,7 +897,3 @@ only screen and (                min-resolution: 2dppx) {
   line-height: normal;
   color: #000;
 }
-
-.contact-list-item-link:focus {
-  outline: none;
-}
