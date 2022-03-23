@@ -392,6 +392,8 @@ time {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  border-radius: 10px;
+  background-color: #ffcda8;
 }
 
 @media
