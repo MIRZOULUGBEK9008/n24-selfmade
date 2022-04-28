@@ -12,9 +12,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
   <!-- STYLES  -->
-  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="css/styles.css"> -->
-  <link rel="stylesheet" href="css/css.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="css/css.min.css"> -->
 </head>
 <body>
 
@@ -84,17 +84,13 @@
 
       <div class="contact">
         <!-- INPUT  -->
-        <form class="contact-action" action="https://echo.htmlacademy.ru/" method="GET">
+        <form class="contact-action" action="https://echo.htmlacademy.ru/" method="GET" target="_blank">
           <div class="telephone-number">
             <input class="number-input" type="text" name="username" placeholder="Имя" aria-label="Имя">
-            <input class="number-input" type="tel" name="user-number" placeholder="Номер телефона" aria-label="Номер телефона" required>
+            <input class="number-input" type="tel" name="user-number" placeholder="Номер телефона" aria-label="Номер телефона" pattern="^(?:(?:\(?(?:00|\+)([1-4]\d\d|[1-9]\d?)\)?)?[\-\.\ \\\/]?)?((?:\(?\d{1,}\)?[\-\.\ \\\/]?){0,})(?:[\-\.\ \\\/]?(?:#|ext\.?|extension|x)[\-\.\ \\\/]?(\d+))?$" required>
           </div>
-          <div>
-            <input class="number-input  email-input" type="email" name="user-email" placeholder="Электронная почта" aria-label="Электронная почта" required>
-          </div>
-          <div>
-            <input class="number-input text-input" type="text" name="about-user" placeholder="Текст" aria-label="Текст" required>
-          </div>
+          <input class="number-input  email-input" type="email" name="user-email" placeholder="Электронная почта" aria-label="Электронная почта" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" required>
+          <textarea class="number-input text-input" name="about-user" aria-label="Текст" placeholder="Текст" required></textarea>
           <div class="submit-flex">
             <button class="button button-signup" type="submit">Отправить</button>
           </div>

@@ -839,10 +839,11 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .text-input {
-  width: 696px;
-  padding-bottom: 143px;
-  padding-left: 20px;
+  min-height: 185px;
+  min-width: 696px;
+  padding: 20px;
   margin-bottom: 20px;
+  resize: vertical;
 }
 
 .submit-flex {
