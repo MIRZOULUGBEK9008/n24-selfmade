@@ -17,6 +17,17 @@ body {
   box-sizing: border-box;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 
 /* MAIN-CONTENT  */
 .main-content {
@@ -401,6 +412,7 @@ time {
   position: fixed;
   left: 0;
   top: 0;
+  z-index: 1000;
   display: none;
   overflow: auto;
   width: 100%;
@@ -468,6 +480,8 @@ time {
 
 .modal-button-inner {
   margin-right: 0;
+  font-size: 24px;
+  padding: 15px 40px;
 }
 
 .button-turn-on-off:hover {
