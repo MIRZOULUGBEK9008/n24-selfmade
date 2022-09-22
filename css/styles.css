@@ -83,7 +83,6 @@
 
 .lds-facebook div:nth-child(3) {
   left: 56px;
-  animation-delay: 0;
 }
 
 @keyframes lds-facebook {
@@ -209,7 +208,7 @@ select:-webkit-autofill:focus {
   text-decoration: none;
   text-align: center;
   font-size: 16px;
-  line-height: auto;
+  line-height: normal;
   font-weight: 500;
   color: var(--white);
   background-color: var(--blue);
@@ -236,6 +235,11 @@ select:-webkit-autofill:focus {
   font-size: 20px;
   background-color: #f78b3b;
   cursor: pointer;
+}
+
+.button--green:focus {
+  outline: 2px dashed var(--white);
+  outline-offset: 4px;
 }
 
 .button--block {
@@ -307,7 +311,7 @@ select:-webkit-autofill:focus {
 }
 
 .currency-rates__rate {
-  line-height: auto;
+  line-height: normal;
 }
 
 .currency-rates__rate > b {
@@ -456,7 +460,7 @@ select:-webkit-autofill:focus {
 .card__title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 130%;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -516,8 +520,8 @@ select:-webkit-autofill:focus {
   margin-right: auto;
   color: var(--black);
   font-weight: 500;
-  font-style: 20px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 130%;
 }
 
 
@@ -525,6 +529,15 @@ select:-webkit-autofill:focus {
 .section-list {
   padding-top: 30px;
   padding-bottom: 100px;
+}
+
+.section-list__container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.section-list__left {
+  margin-right: 10px;
 }
 
 .section-list__title {
@@ -584,7 +597,7 @@ select:-webkit-autofill:focus {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 130%;
   font-weight: 500;
 }
 
@@ -606,4 +619,101 @@ select:-webkit-autofill:focus {
   margin-top: 0;
   margin-bottom: 17px;
   color: var(--gray);
+}
+
+.right {
+  width: 100%;
+  max-width: 393px;
+  padding: 20px 17px;
+  border-radius: 15px;
+  background-color: var(--light-gray);
+}
+
+.right__title-main {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: var(--black);
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 500;
+}
+
+.right__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.right__item:not(:last-child) {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.right__item:last-child {
+  padding-top: 19px;
+}
+
+.right__title {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.right__link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--black);
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.right__link:hover {
+  color: var(--blue);
+}
+
+.right__link:active {
+  opacity: 0.6;
+}
+
+.right__date {
+  display: inline-block;
+  text-decoration: none;
+  color: #5e5f61;
+  font-size: 13px;
+  line-height: normal;
+}
+
+.right__date:hover {
+  opacity: 0.8;
+}
+
+.right__date:active {
+  opacity: 0.6;
+}
+
+.section-list__ads {
+  margin-top: 10px;
+}
+
+.olmos {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.olmos:hover {
+  opacity: 0.8;
+}
+
+.olmos:active {
+  opacity: 0.6;
+}
+
+.olmos__img {
+  display: block;
+  width: 393px;
+  height: 338px;
+  object-fit: cover;
 }
